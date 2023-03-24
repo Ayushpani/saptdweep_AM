@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: solid;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans';
+}
+
+.image {
+    float:unset;
+    position: relative;
+    top: 400px;
+    left: 100px;
+    border-radius: 30%;
+ }
+
+body::before{
+    content: "";
+    background-image: url("pic3.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+nav{
+    background-image: rgb(231, 151, 86);
+    height: 85px;
+    width: 100%;
+}
+
+label.title{
+    color: rgba(145, 14, 114, 0.619);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    left: 462px;
+}
+
+div.circle{
+    width: 150px;
+    height: 150px;
+    background: rgba(171, 102, 171, 0.831);
+    margin: 10% auto;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 30px;
+}
+
+
+
+div.title{
+    text-align: center;
+    margin-top: 55px;
+    width: inherit;
+    height: auto;
+    position: absolute;
+    font-weight: bolder;
+    color: white;
+}
+
+div.content{
+    text-align: centre;
+    text-indent: 15%;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 20px;
+    position: absolute;
+    left: 100px;
+    margin-left: 500px;
+    margin-right: 5px;
+    text-indent: 0px;
+    margin-top: -65px;
+    font-family: monospace;
+}
